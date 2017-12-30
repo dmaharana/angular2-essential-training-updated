@@ -7,7 +7,7 @@
 <div>{{ mediaItem.year }}</div>
 <div class="tools">
   <svg 
-    appFavorite
+    [appFavorite]="mediaItem.isFavorite"
     class="favorite" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M12 9.229c.234-1.12 1.547-6.229 5.382-6.229 2.22 0 4.618 1.551 4.618 5.003 0 3.907-3.627
  8.47-10 12.629-6.373-4.159-10-8.722-10-12.629 0-3.484 2.369-5.005 4.577-5.005 3.923 0 5.145 5.126 5.
