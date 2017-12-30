@@ -7,9 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  onMediaItemDelete(mediaItem) {
-
-  }
   firstMediaItem = {
     id: 1,
     name: 'Firebug',
@@ -19,4 +16,8 @@ export class AppComponent {
     watchedOn: 1294166565384,
     isFavorite: false
   };
+  onMediaItemDelete(mediaItem) {
+
+  }
+
 }
