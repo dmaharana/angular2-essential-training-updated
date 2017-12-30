@@ -12,4 +12,8 @@ export class MediaItemComponent implements OnInit {
   ngOnInit() {
   }
 
+  onDelete() {
+    console.log('deleted');
+  }
+
 }
