@@ -13,7 +13,8 @@ export class MediaItemFormComponent implements OnInit {
 
   form;
   onSubmit(mediaItem) {
-    this.mediaItemService.add(mediaItem);
+    this.mediaItemService.add(mediaItem)
+      .subscribe();
   }
   constructor(
     private formBuilder: FormBuilder,
